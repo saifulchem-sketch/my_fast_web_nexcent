@@ -1,0 +1,205 @@
+/* <600px, 601px, 768px, 992px, 1200px */
+@media only screen and (max-width: 600px) {
+    .header {
+        width: 100%;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .logbtn {
+        flex-direction: column;
+        flex-basis: 100%;
+        row-gap: 20px;
+
+    }
+
+    .heroarea {
+        width: 100%;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .heroarea .media img {
+        width: 180px;
+        height: auto;
+    }
+
+    .herochild h1 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .pglink {
+        display: none;
+    }
+
+    .clintarea {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .boostarea {
+        width: 100%;
+
+    }
+
+    .boostarea h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .boostchild-text {
+        width: 100%;
+
+    }
+
+    .boostareacont {
+        display: block;
+        justify-items: center;
+    }
+
+    .boostplusarea {
+        width: 100%;
+        display: block;
+        justify-items: center;
+    }
+
+    .boostplusarea img {
+        width: 250px;
+        height: auto;
+
+    }
+
+    .boosttext {
+        width: 100%;
+        margin: 5px;
+        padding: 0;
+    }
+
+    .membertrackingarea {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        display: block
+    }
+
+    .membertext {
+        margin: 10px;
+        padding-left: 0px;
+    }
+
+    .membertext h2 {
+        font-size: 20px;
+    }
+
+    .membercount {
+        display: block;
+        margin-left: 10px;
+        padding-left: 10px;
+        margin-top: 20px;
+    }
+
+    .designarea {
+        width: 100%;
+        display: block;
+        padding-left: 10px;
+        justify-items: center;
+
+    }
+
+    .designareamedia img {
+        width: 180px;
+        height: auto;
+    }
+
+    .designareatext {
+        width: 100%;
+        padding: 5px;
+        margin: 10px;
+    }
+
+    .designareatext h2 {
+        font-size: 20px;
+
+    }
+
+    .cutomerarea {
+        width: 100%;
+        margin: 10px;
+        padding: 5px;
+        display: block;
+    }
+
+    .cutomerareaicon {
+        display: flex;
+    }
+
+    .mktarea {
+        width: 100%;
+        padding: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: auto;
+    }
+
+    .mktareatext h2 {
+        font-size: 20px;
+
+    }
+
+    .mktareatext {
+        width: 100%;
+        margin-bottom: 20px;
+        padding-top: 25px;
+    }
+
+    .mktareamedia {
+        display: block;
+        justify-items: center;
+    }
+
+    .demoarea {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .demoarea h2 {
+        font-size: 30px;
+
+    }
+
+    .demoarea a {
+        margin: 20px 20px 20px 28%;
+    }
+
+    .footer {
+        width: 100%;
+        display: block;
+        justify-items: center;
+    }
+}
+
+
+@media only screen and (min-width: 601px) {
+    
+
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    body{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    body{
+        width: 100%;
+    }
+}
